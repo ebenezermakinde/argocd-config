@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node-express-app
-        image: ebenezermakinde/node-express-app:latest
+        image: ebenezermakinde/node-express-app:3
         ports:
         - containerPort: 4000
 ---
