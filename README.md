@@ -1,5 +1,9 @@
 # argocd-app-configuration
 
+The repository shows the implementation of GitOps for a simple node express app using argocd and it's associated services for RBAC and notifications/alerts to a dedicated slack channel.
+
+See architectural diagram below
+
 ### Commands
 ```
 # install ArgoCD in k8s
@@ -32,3 +36,8 @@ Login to ArgoCD: https://argo-cd.readthedocs.io/en/stable/getting_started/#4-log
 
 
 ArgoCD Configuration: https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/
+
+ArgoCD Slack Notification setup: https://argocd-notifications.readthedocs.io/en/latest/services/slack/
+
+### GitOps Flow
+![Flow Diagram](GitOps_Flow.png)
