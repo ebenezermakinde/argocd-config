@@ -23,10 +23,10 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ### Links
 
 
-Config repo: https://devopsebenezer.westus.cloudapp.azure.com/ebenezermakinde/argocd-app-configuration
+Config repo: https://github.com/ebenezermakinde/argocd-config
 
 
-Docker repo: https://hub.docker.com/repository/docker/ebenezermakinde/simpleapp
+Docker repo: https://hub.docker.com/repository/docker/ebenezermakinde/node-express-app
 
 
 Install ArgoCD: https://argo-cd.readthedocs.io/en/stable/getting_started/#1-install-argo-cd
